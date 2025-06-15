@@ -1,0 +1,106 @@
+
+@article{carter_using_2017,
+	title = {Using {Artificial} {Intelligence} to {Augment} {Human} {Intelligence}},
+	volume = {2},
+	issn = {2476-0757},
+	doi = {10.23915/distill.00009},
+	abstract = {By creating user interfaces which let us work with the representations inside machine learning models, we can give people new tools for reasoning.},
+	number = {12},
+	journal = {Distill},
+	author = {Carter, Shan and Nielsen, Michael},
+	month = dec,
+	year = {2017},
+	pages = {e9},
+	file = {Snapshot:H\:\\Docs\\zotero\\storage\\3XIIADVY\\aia.html:text/html}
+}
+
+@inproceedings{roberts_learning_2018,
+	title = {Learning {Latent} {Representations} of {Music} to {Generate} {Interactive} {Musical} {Palettes}},
+	booktitle = {Proceedings of the {Workshop} on {Intelligent} {Music} {Interfaces} for {Listening} and {Creation} ({MILC}@{IUI})},
+	publisher = {ACM},
+	author = {Roberts, Adam and Engel, Jesse and Oore, Sageev and Eck, Douglas},
+	year = {2018},
+	file = {Full Text PDF:H\:\\Docs\\zotero\\storage\\ZBJFU3H5\\Roberts et al. - 2018 - Learning Latent Representations of Music to Genera.pdf:application/pdf}
+}
+
+@inproceedings{sturm_music_2016,
+	title = {Music {Transcription} {Modelling} and {Composition} {Using} {Deep} {Learning}},
+	copyright = {info:eu-repo/semantics/closedAccess},
+	abstract = {We apply deep learning methods, specifically long short-term
+memory (LSTM) networks, to music transcription modelling and composition.
+We build and train LSTM networks using approximately 23,000
+music transcriptions expressed with a high-level vocabulary (ABC notation),
+and use them to generate new transcriptions. Our practical aim
+is to create music transcription models useful in particular contexts of
+music composition. We present results from three perspectives: 1) at the
+population level, comparing descriptive statistics of the set of training
+transcriptions and generated transcriptions; 2) at the individual level,
+examining how a generated transcription reflects the conventions of a
+music practice in the training transcriptions (Celtic folk); 3) at the application
+level, using the system for idea generation in music composition.
+We make our datasets, software and sound examples open and available:
+https://github.com/IraKorshunova/folk-rnn.},
+	author = {Sturm, Bob and Santos, João Felipe and Ben-Tal, Oded and Korshunova, Iryna},
+	year = {2016},
+	file = {Snapshot:H\:\\Docs\\zotero\\storage\\PF3UED5S\\7223530.html:text/html}
+}
+
+
+@inproceedings{zhao_sound_2018,
+	title = {The {Sound} of {Pixels}},
+	abstract = {We introduce PixelPlayer, a system that, by leveraging large amounts of unlabeled videos, learns to locate image regions which produce sounds and separate the input sounds into a set of components that represents the sound from each pixel. Our approach capitalizes on the natural synchronization of the visual and audio modalities to learn models that jointly parse sounds and images, without requiring additional manual supervision. Experimental results on a newly collected MUSIC dataset show that our proposed Mix-and-Separate framework outperforms several baselines on source separation. Qualitative results suggest our model learns to ground sounds in vision, enabling applications such as independently adjusting the volume of sound sources.},
+	language = {en},
+	booktitle = {{ECCV}},
+	author = {Zhao, Hang and Gan, Chuang and Rouditchenko, Andrew and Vondrick, Carl and McDermott, Josh and Torralba, Antonio},
+	year = {2018},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing},
+	file = {Zhao et al. - 2018 - The Sound of Pixels.pdf:H\:\\Docs\\zotero\\storage\\GHYYQZU4\\Zhao et al. - 2018 - The Sound of Pixels.pdf:application/pdf}
+}
+
+
+
+@inproceedings{gong_ast_2021,
+	address = {Brno, Czechia},
+	title = {{AST}: {Audio} {Spectrogram} {Transformer}},
+	shorttitle = {{AST}},
+	url = {http://arxiv.org/abs/2104.01778},
+	abstract = {In the past decade, convolutional neural networks (CNNs) have been widely adopted as the main building block for end-to-end audio classification models, which aim to learn a direct mapping from audio spectrograms to corresponding labels. To better capture long-range global context, a recent trend is to add a self-attention mechanism on top of the CNN, forming a CNN-attention hybrid model. However, it is unclear whether the reliance on a CNN is necessary, and if neural networks purely based on attention are sufficient to obtain good performance in audio classification. In this paper, we answer the question by introducing the Audio Spectrogram Transformer (AST), the first convolution-free, purely attention-based model for audio classification. We evaluate AST on various audio classification benchmarks, where it achieves new state-of-the-art results of 0.485 mAP on AudioSet, 95.6\% accuracy on ESC-50, and 98.1\% accuracy on Speech Commands V2.},
+	urldate = {2022-04-17},
+	booktitle = {Proceedings of {Interspeech}},
+	author = {Gong, Yuan and Chung, Yu-An and Glass, James},
+	month = jul,
+	year = {2021},
+	note = {arXiv: 2104.01778},
+	keywords = {Computer Science - Sound, Computer Science - Artificial Intelligence},
+	file = {arXiv Fulltext PDF:C\:\\Users\\coduser\\Zotero\\storage\\IWET6PMQ\\Gong et al. - 2021 - AST Audio Spectrogram Transformer.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\coduser\\Zotero\\storage\\AFC5FI5Z\\2104.html:text/html},
+}
+
+@inproceedings{bachman_learning_2014,
+	title = {Learning with {Pseudo}-{Ensembles}},
+	volume = {27},
+	url = {https://proceedings.neurips.cc/paper/2014/hash/66be31e4c40d676991f2405aaecc6934-Abstract.html},
+	abstract = {We formalize the notion of a pseudo-ensemble, a (possibly infinite) collection of child models spawned from a parent model by perturbing it according to some noise process. E.g., dropout (Hinton et al, 2012) in a deep neural network trains a pseudo-ensemble of child subnetworks generated by randomly masking nodes in the parent network. We examine the relationship of pseudo-ensembles, which involve perturbation in model-space, to standard ensemble methods and existing notions of robustness, which focus on perturbation in observation-space. We present a novel regularizer based on making the behavior of a pseudo-ensemble robust with respect to the noise process generating it. In the fully-supervised setting, our regularizer matches the performance of dropout. But, unlike dropout, our regularizer naturally extends to the semi-supervised setting, where it produces state-of-the-art results. We provide a case study in which we transform the Recursive Neural Tensor Network of (Socher et al, 2013) into a pseudo-ensemble, which significantly improves its performance on a real-world sentiment analysis benchmark.},
+	urldate = {2021-12-22},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems}},
+	publisher = {Curran Associates, Inc.},
+	author = {Bachman, Philip and Alsharif, Ouais and Precup, Doina},
+	year = {2014},
+	file = {Full Text PDF:C\:\\Users\\coduser\\Zotero\\storage\\EAWJWDYW\\Bachman et al. - 2014 - Learning with Pseudo-Ensembles.pdf:application/pdf;Full Text PDF:C\:\\Users\\coduser\\Zotero\\storage\\7L3CGU45\\Bachman et al. - 2014 - Learning with Pseudo-Ensembles.pdf:application/pdf},
+}
+
+@article{fonseca_addressing_2020,
+	title = {Addressing {Missing} {Labels} in {Large}-{Scale} {Sound} {Event} {Recognition} {Using} a {Teacher}-{Student} {Framework} {With} {Loss} {Masking}},
+	volume = {27},
+	issn = {1070-9908, 1558-2361},
+	url = {http://arxiv.org/abs/2005.00878},
+	doi = {10.1109/LSP.2020.3006378},
+	abstract = {The study of label noise in sound event recognition has recently gained attention with the advent of larger and noisier datasets. This work addresses the problem of missing labels, one of the big weaknesses of large audio datasets, and one of the most conspicuous issues for AudioSet. We propose a simple and model-agnostic method based on a teacher-student framework with loss masking to first identify the most critical missing label candidates, and then ignore their contribution during the learning process. We find that a simple optimisation of the training label set improves recognition performance without additional computation. We discover that most of the improvement comes from ignoring a critical tiny portion of the missing labels. We also show that the damage done by missing labels is larger as the training set gets smaller, yet it can still be observed even when training with massive amounts of audio. We believe these insights can generalize to other large-scale datasets.},
+	urldate = {2022-04-17},
+	journal = {IEEE Signal Processing Letters},
+	author = {Fonseca, Eduardo and Hershey, Shawn and Plakal, Manoj and Ellis, Daniel P. W. and Jansen, Aren and Moore, R. Channing and Serra, Xavier},
+	year = {2020},
+	note = {arXiv: 2005.00878},
+	keywords = {Computer Science - Machine Learning, Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing},
+	pages = {1235--1239},
+	file = {arXiv Fulltext PDF:C\:\\Users\\coduser\\Zotero\\storage\\NBITDBDG\\Fonseca et al. - 2020 - Addressing Missing Labels in Large-Scale Sound Eve.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\coduser\\Zotero\\storage\\B42F29KS\\2005.html:text/html},
+}

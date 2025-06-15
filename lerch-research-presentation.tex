@@ -1,0 +1,42 @@
+% move all configuration stuff into includes file so we can focus on the content
+\input{include}
+
+\title{From Audio to Music Understanding}
+\subtitle{machine learning for music analysis, processing, \& generation} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    % generate title page
+	\input{include/titlepage}
+
+    \section[about]{about me}
+        \input{about}
+        
+    \section[intro]{introduction}
+        \input{intro}
+        
+    %\section{audio analysis}        
+		%\input{classification}
+        
+    \section{data}
+        \input{data}
+    
+    \section{reprogramming}
+        \input{reprogramming}
+    
+    \section{east}
+        \input{representation}
+    
+    %\section{generative eval}
+        %\input{eval}
+
+    \section{conclusion}
+        \input{conclusion}
+        \input{./include/contact}
+
+    \begin{frame}[allowframebreaks]{references}{references}
+        \printbibliography[title=references]
+    \end{frame}
+
+\end{document}
+
